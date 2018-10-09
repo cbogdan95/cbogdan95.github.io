@@ -1,0 +1,76 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+
+.head {
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+
+}
+
+.body {
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+  
+}
+
+.left.hand {
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+
+}
+
+.right.hand {
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+
+}
+
+@keyframes righthandHi {
+  from {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-160deg);
+  }
+}
+
+.left.foot {
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+
+}
+
+.right.foot {
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+
+}
+
+@keyframes jump {
+  from {
+    transform: translate(0px, 50px);
+  }
+
+
+  50% {
+    transform: translate(0px, -50px);
+  }
+
+}
